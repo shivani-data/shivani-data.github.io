@@ -1,37 +1,90 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-body {
-  background-image: url("https://source.unsplash.com/random/1600x900");
-  background-size: cover;
-  background-position: center;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.intro {
-  text-align: center;
-  color: white;
-}
+        body {
+            background: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-.intro h1 {
-  font-size: 4rem;
-}
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
 
-.intro p {
-  font-size: 1.5rem;
-}
-</style>
+        header h1 {
+            margin: 0;
+        }
+
+        .section {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 2rem;
+            padding: 1rem;
+        }
+
+        .section h2 {
+            margin: 0.5rem 0;
+        }
+
+        .section p {
+            margin: 0;
+            padding: 0.5rem 0;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    </style>
 </head>
 <body>
-  <div class="intro">
-    <h1>Shivani Agrawal</h1>
-    <p>Web Developer</p>
-  </div>
+    <header>
+        <h1>Shivani Agrawal</h1>
+    </header>
+    <section class="section">
+        <h2>About Me</h2>
+        <p>Constant learner and passionate about tech.</p>
+        <a href="#" class="btn">Download Resume</a>
+    </section>
+    <section class="section">
+        <h2>Education</h2>
+        <p>Bachelor of Technology in Computer Science, Women Emgineering College, 2018-2022</p>
+    </section>
+    <section class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript, HTML, CSS</li>
+            <li>React.js</li>
+            <li>Node.js, Express.js</li>
+            <li>SQL</li>
+          
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Resume. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add any javascript code here if needed
+    </script>
 </body>
 </html>
